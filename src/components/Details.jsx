@@ -7,10 +7,10 @@ const Details = () => {
     return (
         <div className="relative bg-gradient-to-b from-[#20354A] to-[#4D7FB0] min-h-screen flex flex-col items-center justify-center py-20 px-4 overflow-y-auto">
             <div className="text-center mb-12">
-                <h2 className="font-bold text-4xl md:text-6xl lg:text-7xl text-white leading-tight">
+                <h2 className="text-4xl md:text-6xl lg:text-7xl text-white leading-tight">
                     <span className="font-calistoga text-5xl md:text-7xl lg:text-8xl">Everything</span> you
                 </h2>
-                <h1 className="font-bold text-4xl md:text-6xl lg:text-7xl text-white leading-tight">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl text-white leading-tight">
                     need in one Wallet.
                 </h1>
             </div>

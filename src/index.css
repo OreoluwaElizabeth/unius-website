@@ -13,3 +13,29 @@
   --font-stylescript: "Style Script", "sans-serif";
   --font-calistoga: "Calistoga", "sans-serif";
 }
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+.noscrollbar{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-custom::-webkit-scrollbar{
+  width: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track{
+  background-color: #D9E2EB;
+}
+ 
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #4473A1; /* green-600 */
+  border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #2f6499; /* green-800 */
+}
