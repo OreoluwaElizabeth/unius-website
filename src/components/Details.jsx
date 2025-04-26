@@ -5,7 +5,7 @@ import across from "../assets/images/accross chain.png";
 
 const Details = () => {
     return (
-        <div className="relative bg-gradient-to-b from-[#20354A] to-[#4D7FB0] min-h-screen flex flex-col items-center justify-center py-20 px-4 overflow-y-auto">
+        <div className="relative bg-[#04203A] min-h-screen flex flex-col items-center justify-center py-20 px-4 overflow-y-auto">
             <div className="text-center mb-12">
                 <h2 className="text-4xl md:text-6xl lg:text-7xl text-white leading-tight">
                     <span className="font-calistoga text-5xl md:text-7xl lg:text-8xl">Everything</span> you
