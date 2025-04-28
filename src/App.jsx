@@ -1,18 +1,13 @@
-import Details from "./components/Details";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import MarketOverview from "./components/MarketOverview";
-import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Uwa from "./components/Uwa";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <HeroSection />
-      <Details />
-      <MarketOverview />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/uwa" element={<Uwa />} />
+    </Routes>
   )
 }
 
