@@ -1,36 +1,40 @@
 import unius from "../assets/images/unius logo png white 1.png";
-import tweet from "../assets/images/ri--twitter-x-line 1.png";
-import tele from "../assets/images/telegram.png";
-import discord from "../assets/images/ic--baseline-discord 1.png";
-import instagram from "../assets/images/iconoir--instagram 1.png";
-import more from "../assets/images/ix--more-menu 1.png";
+import tweet from "../assets/images/new tweet.png";
+import tele from "../assets/images/new telegram.png";
+import discord from "../assets/images/new discord.png";
+import instagram from "../assets/images/insta.png";
+import more from "../assets/images/menu.png";
 
 const Footer = () => {
     return (
         <footer className='bg-[#04203A] text-white py-8 px-4 md:px-8 font-sans text-sm'>
             <div className='max-w-6xl mx-auto flex flex-wrap justify-between gap-6'>
                 <div className='mb-6'>
-                    <div className='flex items-center mb-4'>
-                        <img src={unius} alt="Unius Logo" className='h-12 mr-[-12px]'/>
-                        <h3 className='text-xl md:text-2xl font-bold font-mono'>UNIUS</h3>
-                    </div>
-                    <div className='flex items-center gap-2'>
-                        <span>Community</span>
-                        <a href="#" className='text-white'>
-                            <img src={tweet} alt="twi" className='h-6'/>
-                        </a>
-                        <a href="#" className='text-white'>
-                            <img src={tele} alt="tele" className='h-6'/>
-                        </a>
-                        <a href="#" className='text-white'>
-                            <img src={discord} alt="dis" className='h-6'/>
-                        </a>
-                        <a href="#" className='text-white'>
-                            <img src={instagram} alt="insta" className='h-6'/>
-                        </a>
-                        <a href="#" className='text-white'>
-                            <img src={more} alt="more" className='h-6'/>
-                        </a>
+                    <div className="flex flex-col gap-4">
+                        <div className='flex items-center'>
+                            <img src={unius} alt="Unius Logo" className='h-12 mr-[-12px]'/>
+                            <h3 className='text-xl md:text-2xl font-bold font-mono'>UNIUS</h3>
+                        </div>
+                        <div className='flex flex-col gap-2'>
+                            <span>Community</span>
+                            <div className="flex gap-2">
+                                <a href="#" className='text-white'>
+                                    <img src={tweet} alt="twi" className='h-3'/>
+                                </a>
+                                <a href="#" className='text-white'>
+                                    <img src={tele} alt="tele" className='h-3'/>
+                                </a>
+                                <a href="#" className='text-white'>
+                                    <img src={discord} alt="dis" className='h-3'/>
+                                </a>
+                                <a href="#" className='text-white'>
+                                    <img src={instagram} alt="insta" className='h-3'/>
+                                </a>
+                                <a href="#" className='text-white'>
+                                    <img src={more} alt="more" className='h-3'/>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
